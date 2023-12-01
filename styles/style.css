@@ -1,0 +1,47 @@
+/* DOKUMENT STYLŮ K ÚPRAVĚ */
+
+.main {
+   gap: 1em;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+.ytv {
+   /*display: flex;
+   flex-direction: column;*/
+   flex-shrink: 0;
+}
+.ytv__bottom {
+   display: flex;
+   flex-direction: row;
+   gap: 6em;
+}
+.ytv__left {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 1em;
+}
+.ytv__right {
+   display: flex;
+   align-items: end;
+   gap: 1em;
+
+}
+.profile {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+.profile__text {
+    
+}
+.icon {
+
+}
+.btn--flex {
+
+}
